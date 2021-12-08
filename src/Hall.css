@@ -1,0 +1,63 @@
+@import '~antd/dist/antd.css';
+
+.site-layout-content {
+    min-height: 100%;
+    padding: 24px;
+    background-image: url('./static/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.search {
+    float: right;
+    width: 230px;
+    margin: 16px 24px 16px 0;
+}
+
+.ant-row-rtl .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+
+.welcome-text {
+    color: #fff;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.video-wrapper {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    /* background: url(../images/4第一帧图片.jpg) no-repeat;
+    background-size: cover; */
+}
+
+.ant-spin-container {
+    min-height: 744.28px;
+    width: 100%;
+}
+
+.card-wrapper {
+    padding: 10px;
+    height: 800px;
+}
+
+.footer {
+    background: rgba(255, 0, 0, 0.5);
+}
